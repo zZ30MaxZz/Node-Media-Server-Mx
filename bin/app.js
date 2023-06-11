@@ -56,7 +56,7 @@ const config = {
     api_pass: 'admin',
     play: true,
     publish: true,
-    secret: 'mxsecret2023'
+    secret: process.env.RENDER_SECRET || 'mxsecret2023'
   }
 };
 
