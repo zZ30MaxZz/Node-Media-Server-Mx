@@ -1,0 +1,22 @@
+11/6/2023 22:49:38 38460 [INFO] Node Media Server v2.6.2
+11/6/2023 22:49:38 38460 [INFO] Node Media Rtmp Server started on port: 1935
+11/6/2023 22:49:38 38460 [ERROR] Node Media Http Server Error: listen EACCES: permission denied 0.0.0.0:8000
+11/6/2023 22:49:38 38460 [ERROR] Node Media WebSocket Server Error: listen EACCES: permission denied 0.0.0.0:8000
+11/6/2023 22:51:25 38460 [INFO] [rtmp connect] id=L5NM5O0Y ip=::ffff:127.0.0.1 app=live args={"app":"live","type":"nonprivate","flashVer":"FMLE/3.0 (compatible; FMSc/1.0)","swfUrl":"rtmp://localhost/live","tcUrl":"rtmp://localhost/live"}
+11/6/2023 22:51:25 38460 [INFO] [rtmp publish] New stream. id=L5NM5O0Y streamPath=/live/mxstream streamId=1
+11/6/2023 22:51:26 38460 [INFO] [rtmp publish] Handle audio. id=L5NM5O0Y streamPath=/live/mxstream sound_format=10 sound_type=2 sound_size=1 sound_rate=3 codec_name=AAC 48000 2ch
+11/6/2023 22:51:26 38460 [INFO] [rtmp publish] Handle video. id=L5NM5O0Y streamPath=/live/mxstream frame_type=1 codec_id=7 codec_name=H264 1280x720
+11/6/2023 22:52:23 38460 [INFO] [rtmp connect] id=NCYWM6AS ip=::1 app=live args={"app":"live","flashVer":"LNX 9,0,124,2","tcUrl":"rtmp://localhost:1935/live","fpad":false,"capabilities":15,"audioCodecs":4071,"videoCodecs":252,"videoFunction":1}
+11/6/2023 22:52:23 38460 [INFO] [rtmp play] Join stream. id=NCYWM6AS streamPath=/live/mxstream  streamId=1 
+11/6/2023 22:53:59 38460 [INFO] [rtmp play] Close stream. id=NCYWM6AS streamPath=/live/mxstream streamId=1
+11/6/2023 22:53:59 38460 [INFO] [rtmp disconnect] id=NCYWM6AS
+11/6/2023 22:54:07 38460 [INFO] [rtmp connect] id=ZQU6WUHZ ip=::1 app=live args={"app":"live","flashVer":"LNX 9,0,124,2","tcUrl":"rtmp://localhost:1935/live","fpad":false,"capabilities":15,"audioCodecs":4071,"videoCodecs":252,"videoFunction":1}
+11/6/2023 22:54:07 38460 [INFO] [rtmp play] Join stream. id=ZQU6WUHZ streamPath=/live/mxstream  streamId=1 
+11/6/2023 22:54:20 38460 [INFO] [rtmp connect] id=R6F09TIS ip=::1 app=live args={"app":"live","flashVer":"LNX 9,0,124,2","tcUrl":"rtmp://localhost:1935/live","fpad":false,"capabilities":15,"audioCodecs":4071,"videoCodecs":252,"videoFunction":1}
+11/6/2023 22:54:20 38460 [INFO] [rtmp play] Join stream. id=R6F09TIS streamPath=/live/mxstream  streamId=1 
+11/6/2023 22:54:50 38460 [INFO] [rtmp play] Close stream. id=R6F09TIS streamPath=/live/mxstream streamId=1
+11/6/2023 22:54:50 38460 [INFO] [rtmp disconnect] id=R6F09TIS
+11/6/2023 22:57:38 38460 [INFO] [rtmp publish] Close stream. id=L5NM5O0Y streamPath=/live/mxstream streamId=1
+11/6/2023 22:57:38 38460 [INFO] [rtmp disconnect] id=L5NM5O0Y
+11/6/2023 22:57:43 38460 [INFO] [rtmp play] Close stream. id=ZQU6WUHZ streamPath=/live/mxstream streamId=1
+11/6/2023 22:57:43 38460 [INFO] [rtmp disconnect] id=ZQU6WUHZ

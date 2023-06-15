@@ -1,0 +1,15 @@
+12/6/2023 00:03:08 8156 [INFO] Node Media Server v2.6.2
+12/6/2023 00:03:08 8156 [INFO] Node Media Rtmp Server started on port: 1935
+12/6/2023 00:03:08 8156 [ERROR] Node Media Http Server Error: listen EACCES: permission denied 0.0.0.0:8000
+12/6/2023 00:03:08 8156 [ERROR] Node Media WebSocket Server Error: listen EACCES: permission denied 0.0.0.0:8000
+12/6/2023 00:03:28 8156 [INFO] [rtmp connect] id=HIK0CUS7 ip=::1 app=live args={"app":"live","flashVer":"LNX 9,0,124,2","tcUrl":"rtmp://localhost:1935/live","fpad":false,"capabilities":15,"audioCodecs":4071,"videoCodecs":252,"videoFunction":1}
+12/6/2023 00:03:28 8156 [INFO] [rtmp play] Stream not found. id=HIK0CUS7 streamPath=/live/mxstream  streamId=1
+12/6/2023 00:04:31 8156 [INFO] [rtmp connect] id=EELGEYGK ip=::ffff:127.0.0.1 app=live args={"app":"live","type":"nonprivate","flashVer":"FMLE/3.0 (compatible; FMSc/1.0)","swfUrl":"rtmp://localhost/live","tcUrl":"rtmp://localhost/live"}
+12/6/2023 00:04:31 8156 [INFO] [rtmp publish] New stream. id=EELGEYGK streamPath=/live/mxstream streamId=1
+12/6/2023 00:04:31 8156 [INFO] [rtmp play] Join stream. id=HIK0CUS7 streamPath=/live/mxstream  streamId=1 
+12/6/2023 00:04:32 8156 [INFO] [rtmp publish] Handle audio. id=EELGEYGK streamPath=/live/mxstream sound_format=10 sound_type=2 sound_size=1 sound_rate=3 codec_name=AAC 48000 2ch
+12/6/2023 00:04:32 8156 [INFO] [rtmp publish] Handle video. id=EELGEYGK streamPath=/live/mxstream frame_type=1 codec_id=7 codec_name=H264 1280x720
+12/6/2023 00:05:06 8156 [INFO] [rtmp play] Close stream. id=HIK0CUS7 streamPath=/live/mxstream streamId=1
+12/6/2023 00:05:06 8156 [INFO] [rtmp disconnect] id=HIK0CUS7
+12/6/2023 00:05:10 8156 [INFO] [rtmp publish] Close stream. id=EELGEYGK streamPath=/live/mxstream streamId=1
+12/6/2023 00:05:10 8156 [INFO] [rtmp disconnect] id=EELGEYGK
